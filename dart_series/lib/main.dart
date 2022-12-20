@@ -1,54 +1,10 @@
 void main() {
-  // square shape
-  print('square shape');
-  print('*******');
-  print('*     *');
-  print('*     *');
-  print('*     *');
-  print('*     *');
-  print('*******');
+// single line comment
 
-  // rectangle shape
-  print('rectangle shape');
-  print('*****************');
-  print('*               *');
-  print('*               *');
-  print('*               *');
-  print('*****************');
+/*
+multiline comment
+*/
 
-  // triangle shape
-  print('triangle shape');
-  print('        *       ');
-  print('      *****     ');
-  print('    *********   ');
-  print('  ************  ');
-  print('****************');
-
-  // pentagon shape
-  print('pentagon shape');
-  print('      *     ');
-  print('    *    *   ');
-  print('  *        *  ');
-  print(' *          * ');
-  print('  *        *  ');
-  print('    ******   ');
-
-  // circle shape
-  print('circle shape');
-  print('    ******    ');
-  print('*            *');
-  print('    ******    ');
-
-  // heart shape
-  print('heart shape');
-  print(' **   ** ');
-  print('**** ****');
-  print('  *****  ');
-  print('    *    ');
-
-  // pyramid shape
-  print('pyramid shape');
-  print('     *      ');
-  print('  ********');
-  print('*************');
+// I will make pyramid here using new line
+  print('     *\n    ***\n   *****\n  *******');
 }
