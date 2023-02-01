@@ -1,14 +1,8 @@
 void main() {
-// celcius to farenheit
+// area of cirle
 
-  double celcius = 5, farenheit;
+  double area, radius = 5, pie = 3.1416;
 
-  farenheit = (celcius * 9 / 5) + 32;
-
-  print('farenheit: $farenheit°F');
-
-  // farenheit to celcius
-
-  celcius = (farenheit - 32) * 5 / 9;
-  print('celsius: $celcius°C');
+  area = pie * (radius * radius);
+  print('area of circle:$area');
 }
