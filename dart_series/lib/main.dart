@@ -1,8 +1,13 @@
 void main() {
-// area of square
-  int area, side = 5;
+// convert days to year
 
-  area = side * side;
+  double year, days = 1000;
 
-  print('area of square $area');
+  year = days / 365.2425;
+  print('year: $year');
+
+  // convert years to days
+
+  days = year * 365.2425;
+  print('days: $days');
 }
