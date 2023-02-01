@@ -1,8 +1,8 @@
 void main() {
-// area of cirle
+// area of rectangle
+  int area, width = 3, length = 5;
 
-  double area, radius = 5, pie = 3.1416;
+  area = width * length;
 
-  area = pie * (radius * radius);
-  print('area of circle:$area');
+  print('area of rectangle $area');
 }
