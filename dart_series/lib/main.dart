@@ -1,12 +1,14 @@
 void main() {
-// convert feet to meter
-// convert meter tor km
+// celcius to farenheit
 
-  double feet = 2000;
-  double meter, km;
+  double celcius = 5, farenheit;
 
-  meter = feet / 3;
-  print('meter is $meter');
-  km = meter / 1000;
-  print('km:$km');
+  farenheit = (celcius * 9 / 5) + 32;
+
+  print('farenheit: $farenheit°F');
+
+  // farenheit to celcius
+
+  celcius = (farenheit - 32) * 5 / 9;
+  print('celsius: $celcius°C');
 }
